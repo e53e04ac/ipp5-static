@@ -1,0 +1,38 @@
+{
+    "srcFileNames": [
+        "index.html",
+        "index.css",
+        "index.js"
+    ],
+    "thirdpartyFileNames": [
+        "d3/dist/d3.min.js",
+        "jquery/dist/jquery.min.js",
+        "jquery-ui-dist/jquery-ui.min.css",
+        "jquery-ui-dist/jquery-ui.min.js",
+        "jquery-ui-dist/images/ui-icons_444444_256x240.png",
+        "jquery-ui-dist/images/ui-icons_555555_256x240.png",
+        "jquery-ui-dist/images/ui-icons_777620_256x240.png",
+        "jquery-ui-dist/images/ui-icons_777777_256x240.png",
+        "jquery-ui-dist/images/ui-icons_cc0000_256x240.png",
+        "jquery-ui-dist/images/ui-icons_ffffff_256x240.png",
+        "jquery.easing/jquery.easing.min.js",
+        "popper.js/dist/umd/popper.min.js",
+        "bootstrap/dist/css/bootstrap.min.css",
+        "bootstrap/dist/js/bootstrap.min.js",
+        "startbootstrap-sb-admin-2/css/sb-admin-2.min.css",
+        "startbootstrap-sb-admin-2/js/sb-admin-2.min.js",
+        "@fortawesome/fontawesome-free/css/all.min.css",
+        "@fortawesome/fontawesome-free/js/all.min.js",
+        "@fortawesome/fontawesome-free/sprites/brands.svg",
+        "@fortawesome/fontawesome-free/sprites/regular.svg",
+        "@fortawesome/fontawesome-free/sprites/solid.svg",
+        "@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf",
+        "@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2",
+        "@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf",
+        "@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2",
+        "@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf",
+        "@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2",
+        "chart.js/dist/chart.umd.js",
+        "socket.io-client/dist/socket.io.min.js"
+    ]
+}
