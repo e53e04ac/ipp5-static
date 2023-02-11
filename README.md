@@ -58,10 +58,12 @@ graph RL;
   click B_12 "https://www.npmjs.org/package/@types/jquery/v/3.5.16";
   click B_13 "https://www.npmjs.org/package/@types/jqueryui/v/1.12.16";
   click B_14 "https://www.npmjs.org/package/@types/socket.io-client/v/3.0.0";
-  click B_15 "https://github.com/e53e04ac/ipp5-types/tree/ef144d850d518b40703ea085cb940b3ec452bde2";
+  click B_15 "https://github.com/e53e04ac/ipp5-types/tree/aac76e19ca56887358edd54beb91a81e3807a191";
 ~~~~~
 
 ~~~~~ mermaid
-graph LR;
-  A(["index.d.ts"])
+graph RL;
+  subgraph "e53e04ac/ipp5-static";
+  end;
+  M(["index.d.ts"])
 ~~~~~
