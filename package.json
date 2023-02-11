@@ -13,6 +13,7 @@
   "bugs": {
     "url": "https://github.com/e53e04ac/ipp5-static/issues"
   },
+  "types": "index.d.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
