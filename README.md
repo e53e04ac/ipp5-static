@@ -6,7 +6,7 @@ npm install e53e04ac/ipp5-static
 
 ~~~~~ mermaid
 graph RL;
-  A(["e53e04ac/ipp5-static"]);
+  A(["package.json"]);
   subgraph "dependencies";
     B_0(["@fortawesome/fontawesome-free"]);
     B_1(["bootstrap"]);
@@ -27,22 +27,22 @@ graph RL;
     B_14(["@types/socket.io-client"]);
     B_15(["e53e04ac/ipp5-types"]);
   end;
-  A --reference--> B_0;
-  A --reference--> B_1;
-  A --reference--> B_2;
-  A --reference--> B_3;
-  A --reference--> B_4;
-  A --reference--> B_5;
-  A --reference--> B_6;
-  A --reference--> B_7;
-  A --reference--> B_8;
-  A --reference--> B_9;
-  A --reference--> B_10;
-  A --reference--> B_11;
-  A --reference--> B_12;
-  A --reference--> B_13;
-  A --reference--> B_14;
-  A --reference--> B_15;
+  A ----> B_0;
+  A ----> B_1;
+  A ----> B_2;
+  A ----> B_3;
+  A ----> B_4;
+  A ----> B_5;
+  A ----> B_6;
+  A ----> B_7;
+  A ----> B_8;
+  A ----> B_9;
+  A ----> B_10;
+  A ----> B_11;
+  A ----> B_12;
+  A ----> B_13;
+  A ----> B_14;
+  A ----> B_15;
   click B_0 "https://www.npmjs.org/package/@fortawesome/fontawesome-free/v/6.3.0";
   click B_1 "https://www.npmjs.org/package/bootstrap/v/5.2.3";
   click B_2 "https://www.npmjs.org/package/chart.js/v/4.2.1";
@@ -58,12 +58,10 @@ graph RL;
   click B_12 "https://www.npmjs.org/package/@types/jquery/v/3.5.16";
   click B_13 "https://www.npmjs.org/package/@types/jqueryui/v/1.12.16";
   click B_14 "https://www.npmjs.org/package/@types/socket.io-client/v/3.0.0";
-  click B_15 "https://github.com/e53e04ac/ipp5-types/tree/f66ddbd49c9601df9aea4cefdbb3e5c3e65427f5";
+  click B_15 "https://github.com/e53e04ac/ipp5-types/tree/ef144d850d518b40703ea085cb940b3ec452bde2";
 ~~~~~
 
 ~~~~~ mermaid
 graph LR;
-  subgraph "e53e04ac/ipp5-static"
-    C0("index.d.ts");
-  end;
+  A(["index.d.ts"])
 ~~~~~
