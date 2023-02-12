@@ -58,7 +58,7 @@ graph RL;
   click B_12 "https://www.npmjs.org/package/@types/jquery/v/3.5.16";
   click B_13 "https://www.npmjs.org/package/@types/jqueryui/v/1.12.16";
   click B_14 "https://www.npmjs.org/package/@types/socket.io-client/v/3.0.0";
-  click B_15 "https://github.com/e53e04ac/ipp5-types/tree/6f3ee419d7cf5ae7f689bd79bde869f462fe30aa";
+  click B_15 "https://github.com/e53e04ac/ipp5-types/tree/f0ef220175398bc3bab4a468906a94e8446fc893";
 ~~~~~
 
 ~~~~~ mermaid
