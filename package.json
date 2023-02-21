@@ -27,7 +27,7 @@
     "jquery-ui-dist": "^1.12.1",
     "jquery.easing": "^1.4.1",
     "popper.js": "^1.16.1",
-    "socket.io-client": "^4.5.4",
+    "socket.io-client": "^4.6.1",
     "startbootstrap-sb-admin-2": "^4.1.4"
   },
   "devDependencies": {
