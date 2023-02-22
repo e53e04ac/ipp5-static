@@ -51,7 +51,7 @@ graph RL;
   click B_5 "https://www.npmjs.com/package/jquery-ui-dist/v/1.13.2";
   click B_6 "https://www.npmjs.com/package/jquery.easing/v/1.4.1";
   click B_7 "https://www.npmjs.com/package/popper.js/v/1.16.1";
-  click B_8 "https://www.npmjs.com/package/socket.io-client/v/4.6.0";
+  click B_8 "https://www.npmjs.com/package/socket.io-client/v/4.6.1";
   click B_9 "https://www.npmjs.com/package/startbootstrap-sb-admin-2/v/4.1.4";
   click B_10 "https://www.npmjs.com/package/@types/bootstrap/v/5.2.6";
   click B_11 "https://www.npmjs.com/package/@types/d3/v/7.4.0";
