@@ -4,6 +4,7 @@
         "lib/base/index.js",
         "lib/base-view/index.js",
         "lib/command-queue/index.js",
+        "lib/daily-page-view/index.js",
         "lib/date-time/index.js",
         "lib/event-emitter/index.js",
         "lib/float-plant-view/index.js",
