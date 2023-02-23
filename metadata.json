@@ -9,6 +9,7 @@
         "lib/float-plant-view/index.js",
         "lib/hold/index.js",
         "lib/idp-client/index.js",
+        "lib/plant-view/index.js",
         "lib/query-args/index.js",
         "lib/time-span/index.js",
         "lib/unknown-page-view/index.js",
