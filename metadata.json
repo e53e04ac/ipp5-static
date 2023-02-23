@@ -1,5 +1,10 @@
 {
     "srcFileNames": [
+        "lib/base/index.js",
+        "lib/date-time/index.js",
+        "lib/event-emitter/index.js",
+        "lib/hold/index.js",
+        "lib/time-span/index.js",
         "index.html",
         "index.css",
         "index.js"
