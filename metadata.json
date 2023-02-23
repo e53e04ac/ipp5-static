@@ -6,6 +6,7 @@
         "lib/command-queue/index.js",
         "lib/date-time/index.js",
         "lib/event-emitter/index.js",
+        "lib/float-plant-view/index.js",
         "lib/hold/index.js",
         "lib/idp-client/index.js",
         "lib/query-args/index.js",
