@@ -10,6 +10,7 @@
         "lib/idp-client/index.js",
         "lib/query-args/index.js",
         "lib/time-span/index.js",
+        "lib/unknown-page-view/index.js",
         "index.html",
         "index.css",
         "index.js"
