@@ -63,7 +63,7 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["index.d.ts"])
+  M(["globals.d.ts"])
   subgraph "d3";
     I_0_0([" "]);
   end;
@@ -104,4 +104,9 @@ graph RL;
   M ----> I_7_0;
   M ----> I_8_0;
   M ----> I_9_0;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  M(["index.d.ts"])
 ~~~~~
