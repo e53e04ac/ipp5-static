@@ -11,11 +11,11 @@ import { ValueOrGet } from '../hold/index';
 
 export declare namespace IdpClient {
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly uri: ValueOrGet<string>;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;

@@ -1,5 +1,6 @@
 {
     "srcFileNames": [
+        "lib/api-client/index.js",
         "lib/base/index.js",
         "lib/base-view/index.js",
         "lib/command-queue/index.js",
