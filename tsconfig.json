@@ -11,7 +11,7 @@
         "noEmit": true,
         "lib": [
             "dom",
-            "es6"
+            "es2017",
         ]
     },
     "exclude": [
