@@ -154,17 +154,17 @@ graph RL;
     E_1(["type ApiClient"]);
     E_2(["const ApiClient"]);
   end;
-  M["lib\api-client\index.d.ts"]
+  M["lib/api-client/index.d.ts"]
   subgraph "ipp5-types";
     I_0_0(["Ipp5DailySummaryData"]);
     I_0_1(["Ipp5MenuData"]);
     I_0_2(["Ipp5MonthlySummaryData"]);
     I_0_3(["Ipp5YearlySummaryData"]);
   end;
-  subgraph "lib\event-emitter\index";
+  subgraph "lib/event-emitter/index";
     I_1_0(["EventEmitter"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_2_0(["Get"]);
     I_2_1(["ValueOrGet"]);
   end;
@@ -187,8 +187,8 @@ graph RL;
     E_1(["type Base"]);
     E_2(["const Base"]);
   end;
-  M["lib\base\index.d.ts"]
-  subgraph "lib\hold\index";
+  M["lib/base/index.d.ts"]
+  subgraph "lib/hold/index";
     I_0_0(["Get"]);
     I_0_1(["ValueOrGet"]);
   end;
@@ -205,11 +205,11 @@ graph RL;
     E_0(["namespace BaseView"]);
     E_1(["const BaseView"]);
   end;
-  M["lib\base-view\index.d.ts"]
-  subgraph "lib\event-emitter\index";
+  M["lib/base-view/index.d.ts"]
+  subgraph "lib/event-emitter/index";
     I_0_0(["EventEmitter"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -227,11 +227,11 @@ graph RL;
     E_1(["type CommandQueue"]);
     E_2(["const CommandQueue"]);
   end;
-  M["lib\command-queue\index.d.ts"]
-  subgraph "lib\base\index";
+  M["lib/command-queue/index.d.ts"]
+  subgraph "lib/base/index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_1_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -248,14 +248,14 @@ graph RL;
     E_1(["type DailyPageView"]);
     E_2(["const DailyPageView"]);
   end;
-  M["lib\daily-page-view\index.d.ts"]
+  M["lib/daily-page-view/index.d.ts"]
   subgraph "ipp5-types";
     I_0_0(["Ipp5DailySummaryData"]);
   end;
-  subgraph "lib\base-view\index";
+  subgraph "lib/base-view/index";
     I_1_0(["BaseView"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_2_0(["Get"]);
     I_2_1(["ValueOrGet"]);
   end;
@@ -275,11 +275,11 @@ graph RL;
     E_1(["type DateTime"]);
     E_2(["const DateTime"]);
   end;
-  M["lib\date-time\index.d.ts"]
-  subgraph "lib\base\index";
+  M["lib/date-time/index.d.ts"]
+  subgraph "lib/base/index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -297,11 +297,11 @@ graph RL;
     E_0(["namespace EventEmitter"]);
     E_1(["const EventEmitter"]);
   end;
-  M["lib\event-emitter\index.d.ts"]
-  subgraph "lib\base\index";
+  M["lib/event-emitter/index.d.ts"]
+  subgraph "lib/base/index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_1_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -317,17 +317,17 @@ graph RL;
     E_1(["type FloatPlantView"]);
     E_2(["const FloatPlantView"]);
   end;
-  M["lib\float-plant-view\index.d.ts"]
+  M["lib/float-plant-view/index.d.ts"]
   subgraph "chart.js";
     I_0_0(["Chart"]);
   end;
   subgraph "ipp5-types";
     I_1_0(["Ipp5DailySummaryData"]);
   end;
-  subgraph "lib\base-view\index";
+  subgraph "lib/base-view/index";
     I_2_0(["BaseView"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_3_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -349,7 +349,7 @@ graph RL;
     E_4(["const hold"]);
     E_5(["const unwrap"]);
   end;
-  M["lib\hold\index.d.ts"]
+  M["lib/hold/index.d.ts"]
   E_0 ----> M;
   E_1 ----> M;
   E_2 ----> M;
@@ -365,14 +365,14 @@ graph RL;
     E_1(["type IdpClient"]);
     E_2(["const IdpClient"]);
   end;
-  M["lib\idp-client\index.d.ts"]
-  subgraph "lib\command-queue\index";
+  M["lib/idp-client/index.d.ts"]
+  subgraph "lib/command-queue/index";
     I_0_0(["CommandQueue"]);
   end;
-  subgraph "lib\event-emitter\index";
+  subgraph "lib/event-emitter/index";
     I_1_0(["EventEmitter"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_2_0(["Get"]);
     I_2_1(["ValueOrGet"]);
   end;
@@ -392,17 +392,17 @@ graph RL;
     E_1(["type PlantView"]);
     E_2(["const PlantView"]);
   end;
-  M["lib\plant-view\index.d.ts"]
+  M["lib/plant-view/index.d.ts"]
   subgraph "chart.js";
     I_0_0(["Chart"]);
   end;
   subgraph "ipp5-types";
     I_1_0(["Ipp5DailySummaryData"]);
   end;
-  subgraph "lib\base-view\index";
+  subgraph "lib/base-view/index";
     I_2_0(["BaseView"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_3_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -421,11 +421,11 @@ graph RL;
     E_1(["type QueryArgs"]);
     E_2(["const QueryArgs"]);
   end;
-  M["lib\query-args\index.d.ts"]
-  subgraph "lib\base\index";
+  M["lib/query-args/index.d.ts"]
+  subgraph "lib/base/index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -444,11 +444,11 @@ graph RL;
     E_1(["type TimeSpan"]);
     E_2(["const TimeSpan"]);
   end;
-  M["lib\time-span\index.d.ts"]
-  subgraph "lib\base\index";
+  M["lib/time-span/index.d.ts"]
+  subgraph "lib/base/index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -467,11 +467,11 @@ graph RL;
     E_1(["type UnknownPageView"]);
     E_2(["const UnknownPageView"]);
   end;
-  M["lib\unknown-page-view\index.d.ts"]
-  subgraph "lib\base-view\index";
+  M["lib/unknown-page-view/index.d.ts"]
+  subgraph "lib/base-view/index";
     I_0_0(["BaseView"]);
   end;
-  subgraph "lib\hold\index";
+  subgraph "lib/hold/index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -493,11 +493,11 @@ graph RL;
   subgraph " ";
     E_0(["ApiClient"]);
   end;
-  M["lib\api-client\index.js"]
-  subgraph "lib\event-emitter\index.js";
+  M["lib/api-client/index.js"]
+  subgraph "lib/event-emitter/index.js";
     I_0_0(["EventEmitter"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
     I_1_1(["unwrap"]);
   end;
@@ -512,8 +512,8 @@ graph RL;
   subgraph " ";
     E_0(["Base"]);
   end;
-  M["lib\base\index.js"]
-  subgraph "lib\hold\index.js";
+  M["lib/base/index.js"]
+  subgraph "lib/hold/index.js";
     I_0_0(["hold"]);
     I_0_1(["unwrap"]);
   end;
@@ -527,11 +527,11 @@ graph RL;
   subgraph " ";
     E_0(["BaseView"]);
   end;
-  M["lib\base-view\index.js"]
-  subgraph "lib\event-emitter\index.js";
+  M["lib/base-view/index.js"]
+  subgraph "lib/event-emitter/index.js";
     I_0_0(["EventEmitter"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
     I_1_1(["unwrap"]);
   end;
@@ -546,11 +546,11 @@ graph RL;
   subgraph " ";
     E_0(["CommandQueue"]);
   end;
-  M["lib\command-queue\index.js"]
-  subgraph "lib\base\index.js";
+  M["lib/command-queue/index.js"]
+  subgraph "lib/base/index.js";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
   end;
   M ----> I_0_0;
@@ -563,18 +563,18 @@ graph RL;
   subgraph " ";
     E_0(["DailyPageView"]);
   end;
-  M["lib\daily-page-view\index.js"]
-  subgraph "lib\base-view\index.js";
+  M["lib/daily-page-view/index.js"]
+  subgraph "lib/base-view/index.js";
     I_0_0(["BaseView"]);
   end;
-  subgraph "lib\date-time\index.js";
+  subgraph "lib/date-time/index.js";
     I_1_0(["DateTime"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_2_0(["hold"]);
     I_2_1(["unwrap"]);
   end;
-  subgraph "lib\plant-view\index.js";
+  subgraph "lib/plant-view/index.js";
     I_3_0(["PlantView"]);
   end;
   M ----> I_0_0;
@@ -590,11 +590,11 @@ graph RL;
   subgraph " ";
     E_0(["DateTime"]);
   end;
-  M["lib\date-time\index.js"]
-  subgraph "lib\base\index.js";
+  M["lib/date-time/index.js"]
+  subgraph "lib/base/index.js";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
     I_1_1(["unwrap"]);
   end;
@@ -609,11 +609,11 @@ graph RL;
   subgraph " ";
     E_0(["EventEmitter"]);
   end;
-  M["lib\event-emitter\index.js"]
-  subgraph "lib\base\index.js";
+  M["lib/event-emitter/index.js"]
+  subgraph "lib/base/index.js";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
   end;
   M ----> I_0_0;
@@ -626,11 +626,11 @@ graph RL;
   subgraph " ";
     E_0(["FloatPlantView"]);
   end;
-  M["lib\float-plant-view\index.js"]
-  subgraph "lib\base-view\index.js";
+  M["lib/float-plant-view/index.js"]
+  subgraph "lib/base-view/index.js";
     I_0_0(["BaseView"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
   end;
   M ----> I_0_0;
@@ -644,7 +644,7 @@ graph RL;
     E_0(["hold"]);
     E_1(["unwrap"]);
   end;
-  M["lib\hold\index.js"]
+  M["lib/hold/index.js"]
   E_0 ----> M;
   E_1 ----> M;
 ~~~~~
@@ -654,14 +654,14 @@ graph RL;
   subgraph " ";
     E_0(["IdpClient"]);
   end;
-  M["lib\idp-client\index.js"]
-  subgraph "lib\command-queue\index.js";
+  M["lib/idp-client/index.js"]
+  subgraph "lib/command-queue/index.js";
     I_0_0(["CommandQueue"]);
   end;
-  subgraph "lib\event-emitter\index.js";
+  subgraph "lib/event-emitter/index.js";
     I_1_0(["EventEmitter"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_2_0(["hold"]);
     I_2_1(["unwrap"]);
   end;
@@ -677,14 +677,14 @@ graph RL;
   subgraph " ";
     E_0(["PlantView"]);
   end;
-  M["lib\plant-view\index.js"]
-  subgraph "lib\base-view\index.js";
+  M["lib/plant-view/index.js"]
+  subgraph "lib/base-view/index.js";
     I_0_0(["BaseView"]);
   end;
-  subgraph "lib\float-plant-view\index.js";
+  subgraph "lib/float-plant-view/index.js";
     I_1_0(["FloatPlantView"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_2_0(["hold"]);
   end;
   M ----> I_0_0;
@@ -698,11 +698,11 @@ graph RL;
   subgraph " ";
     E_0(["QueryArgs"]);
   end;
-  M["lib\query-args\index.js"]
-  subgraph "lib\base\index.js";
+  M["lib/query-args/index.js"]
+  subgraph "lib/base/index.js";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
     I_1_1(["unwrap"]);
   end;
@@ -717,11 +717,11 @@ graph RL;
   subgraph " ";
     E_0(["TimeSpan"]);
   end;
-  M["lib\time-span\index.js"]
-  subgraph "lib\base\index.js";
+  M["lib/time-span/index.js"]
+  subgraph "lib/base/index.js";
     I_0_0(["Base"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
     I_1_1(["unwrap"]);
   end;
@@ -736,11 +736,11 @@ graph RL;
   subgraph " ";
     E_0(["UnknownPageView"]);
   end;
-  M["lib\unknown-page-view\index.js"]
-  subgraph "lib\base-view\index.js";
+  M["lib/unknown-page-view/index.js"]
+  subgraph "lib/base-view/index.js";
     I_0_0(["BaseView"]);
   end;
-  subgraph "lib\hold\index.js";
+  subgraph "lib/hold/index.js";
     I_1_0(["hold"]);
     I_1_1(["unwrap"]);
   end;
