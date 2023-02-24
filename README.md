@@ -28,7 +28,7 @@ graph RL;
     B_15(["ipp5-types"]);
   end;
   subgraph "github";
-    C_15(["e53e04ac/ipp5-types\n82577500bdeaa45ca281669d5ed3d3850c4376e8"]);
+    C_15(["e53e04ac/ipp5-types\nebe99d725f05ad1eabec2b37a2c5737becc56480"]);
   end;
   subgraph "npmjs";
     C_0(["@fortawesome/fontawesome-free\n6.3.0"]);
@@ -94,274 +94,7 @@ graph RL;
   click C_12 "https://www.npmjs.com/package/@types/jquery/v/3.5.16";
   click C_13 "https://www.npmjs.com/package/@types/jqueryui/v/1.12.16";
   click C_14 "https://www.npmjs.com/package/@types/socket.io-client/v/3.0.0";
-  click C_15 "https://github.com/e53e04ac/ipp5-types/tree/82577500bdeaa45ca281669d5ed3d3850c4376e8";
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  M["index.js"]
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["ApiClient"]);
-  end;
-  M["lib/api-client/index.js"]
-  subgraph "lib/api-client/event-emitter/index.js";
-    I_0_0(["EventEmitter"]);
-  end;
-  subgraph "lib/api-client/hold/index.js";
-    I_1_0(["hold"]);
-    I_1_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_1_1;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["Base"]);
-  end;
-  M["lib/base/index.js"]
-  subgraph "lib/base/hold/index.js";
-    I_0_0(["hold"]);
-    I_0_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_0_1;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["BaseView"]);
-  end;
-  M["lib/base-view/index.js"]
-  subgraph "lib/base-view/event-emitter/index.js";
-    I_0_0(["EventEmitter"]);
-  end;
-  subgraph "lib/base-view/hold/index.js";
-    I_1_0(["hold"]);
-    I_1_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_1_1;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["CommandQueue"]);
-  end;
-  M["lib/command-queue/index.js"]
-  subgraph "lib/command-queue/base/index.js";
-    I_0_0(["Base"]);
-  end;
-  subgraph "lib/command-queue/hold/index.js";
-    I_1_0(["hold"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["DailyPageView"]);
-  end;
-  M["lib/daily-page-view/index.js"]
-  subgraph "lib/daily-page-view/base-view/index.js";
-    I_0_0(["BaseView"]);
-  end;
-  subgraph "lib/daily-page-view/date-time/index.js";
-    I_1_0(["DateTime"]);
-  end;
-  subgraph "lib/daily-page-view/hold/index.js";
-    I_2_0(["hold"]);
-    I_2_1(["unwrap"]);
-  end;
-  subgraph "lib/daily-page-view/plant-view/index.js";
-    I_3_0(["PlantView"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_2_0;
-  M ----> I_2_1;
-  M ----> I_3_0;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["DateTime"]);
-  end;
-  M["lib/date-time/index.js"]
-  subgraph "lib/date-time/base/index.js";
-    I_0_0(["Base"]);
-  end;
-  subgraph "lib/date-time/hold/index.js";
-    I_1_0(["hold"]);
-    I_1_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_1_1;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["EventEmitter"]);
-  end;
-  M["lib/event-emitter/index.js"]
-  subgraph "lib/event-emitter/base/index.js";
-    I_0_0(["Base"]);
-  end;
-  subgraph "lib/event-emitter/hold/index.js";
-    I_1_0(["hold"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["FloatPlantView"]);
-  end;
-  M["lib/float-plant-view/index.js"]
-  subgraph "lib/float-plant-view/base-view/index.js";
-    I_0_0(["BaseView"]);
-  end;
-  subgraph "lib/float-plant-view/hold/index.js";
-    I_1_0(["hold"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["hold"]);
-    E_1(["unwrap"]);
-  end;
-  M["lib/hold/index.js"]
-  E_0 ----> M;
-  E_1 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["IdpClient"]);
-  end;
-  M["lib/idp-client/index.js"]
-  subgraph "lib/idp-client/command-queue/index.js";
-    I_0_0(["CommandQueue"]);
-  end;
-  subgraph "lib/idp-client/event-emitter/index.js";
-    I_1_0(["EventEmitter"]);
-  end;
-  subgraph "lib/idp-client/hold/index.js";
-    I_2_0(["hold"]);
-    I_2_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_2_0;
-  M ----> I_2_1;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["PlantView"]);
-  end;
-  M["lib/plant-view/index.js"]
-  subgraph "lib/plant-view/base-view/index.js";
-    I_0_0(["BaseView"]);
-  end;
-  subgraph "lib/plant-view/float-plant-view/index.js";
-    I_1_0(["FloatPlantView"]);
-  end;
-  subgraph "lib/plant-view/hold/index.js";
-    I_2_0(["hold"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_2_0;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["QueryArgs"]);
-  end;
-  M["lib/query-args/index.js"]
-  subgraph "lib/query-args/base/index.js";
-    I_0_0(["Base"]);
-  end;
-  subgraph "lib/query-args/hold/index.js";
-    I_1_0(["hold"]);
-    I_1_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_1_1;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["TimeSpan"]);
-  end;
-  M["lib/time-span/index.js"]
-  subgraph "lib/time-span/base/index.js";
-    I_0_0(["Base"]);
-  end;
-  subgraph "lib/time-span/hold/index.js";
-    I_1_0(["hold"]);
-    I_1_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_1_1;
-  E_0 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph " ";
-    E_0(["UnknownPageView"]);
-  end;
-  M["lib/unknown-page-view/index.js"]
-  subgraph "lib/unknown-page-view/base-view/index.js";
-    I_0_0(["BaseView"]);
-  end;
-  subgraph "lib/unknown-page-view/hold/index.js";
-    I_1_0(["hold"]);
-    I_1_1(["unwrap"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_1_1;
-  E_0 ----> M;
+  click C_15 "https://github.com/e53e04ac/ipp5-types/tree/ebe99d725f05ad1eabec2b37a2c5737becc56480";
 ~~~~~
 
 ~~~~~ mermaid
@@ -421,17 +154,17 @@ graph RL;
     E_1(["type ApiClient"]);
     E_2(["const ApiClient"]);
   end;
-  M["lib/api-client/index.d.ts"]
+  M["lib\api-client\index.d.ts"]
   subgraph "ipp5-types";
     I_0_0(["Ipp5DailySummaryData"]);
     I_0_1(["Ipp5MenuData"]);
     I_0_2(["Ipp5MonthlySummaryData"]);
     I_0_3(["Ipp5YearlySummaryData"]);
   end;
-  subgraph "lib/api-client/event-emitter/index";
+  subgraph "lib\api-client\event-emitter\index";
     I_1_0(["EventEmitter"]);
   end;
-  subgraph "lib/api-client/hold/index";
+  subgraph "lib\api-client\hold\index";
     I_2_0(["Get"]);
     I_2_1(["ValueOrGet"]);
   end;
@@ -454,8 +187,8 @@ graph RL;
     E_1(["type Base"]);
     E_2(["const Base"]);
   end;
-  M["lib/base/index.d.ts"]
-  subgraph "lib/base/hold/index";
+  M["lib\base\index.d.ts"]
+  subgraph "lib\base\hold\index";
     I_0_0(["Get"]);
     I_0_1(["ValueOrGet"]);
   end;
@@ -472,11 +205,11 @@ graph RL;
     E_0(["namespace BaseView"]);
     E_1(["const BaseView"]);
   end;
-  M["lib/base-view/index.d.ts"]
-  subgraph "lib/base-view/event-emitter/index";
+  M["lib\base-view\index.d.ts"]
+  subgraph "lib\base-view\event-emitter\index";
     I_0_0(["EventEmitter"]);
   end;
-  subgraph "lib/base-view/hold/index";
+  subgraph "lib\base-view\hold\index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -494,11 +227,11 @@ graph RL;
     E_1(["type CommandQueue"]);
     E_2(["const CommandQueue"]);
   end;
-  M["lib/command-queue/index.d.ts"]
-  subgraph "lib/command-queue/base/index";
+  M["lib\command-queue\index.d.ts"]
+  subgraph "lib\command-queue\base\index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib/command-queue/hold/index";
+  subgraph "lib\command-queue\hold\index";
     I_1_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -515,14 +248,14 @@ graph RL;
     E_1(["type DailyPageView"]);
     E_2(["const DailyPageView"]);
   end;
-  M["lib/daily-page-view/index.d.ts"]
+  M["lib\daily-page-view\index.d.ts"]
   subgraph "ipp5-types";
     I_0_0(["Ipp5DailySummaryData"]);
   end;
-  subgraph "lib/daily-page-view/base-view/index";
+  subgraph "lib\daily-page-view\base-view\index";
     I_1_0(["BaseView"]);
   end;
-  subgraph "lib/daily-page-view/hold/index";
+  subgraph "lib\daily-page-view\hold\index";
     I_2_0(["Get"]);
     I_2_1(["ValueOrGet"]);
   end;
@@ -542,11 +275,11 @@ graph RL;
     E_1(["type DateTime"]);
     E_2(["const DateTime"]);
   end;
-  M["lib/date-time/index.d.ts"]
-  subgraph "lib/date-time/base/index";
+  M["lib\date-time\index.d.ts"]
+  subgraph "lib\date-time\base\index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib/date-time/hold/index";
+  subgraph "lib\date-time\hold\index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -564,11 +297,11 @@ graph RL;
     E_0(["namespace EventEmitter"]);
     E_1(["const EventEmitter"]);
   end;
-  M["lib/event-emitter/index.d.ts"]
-  subgraph "lib/event-emitter/base/index";
+  M["lib\event-emitter\index.d.ts"]
+  subgraph "lib\event-emitter\base\index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib/event-emitter/hold/index";
+  subgraph "lib\event-emitter\hold\index";
     I_1_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -584,17 +317,17 @@ graph RL;
     E_1(["type FloatPlantView"]);
     E_2(["const FloatPlantView"]);
   end;
-  M["lib/float-plant-view/index.d.ts"]
+  M["lib\float-plant-view\index.d.ts"]
   subgraph "chart.js";
     I_0_0(["Chart"]);
   end;
   subgraph "ipp5-types";
     I_1_0(["Ipp5DailySummaryData"]);
   end;
-  subgraph "lib/float-plant-view/base-view/index";
+  subgraph "lib\float-plant-view\base-view\index";
     I_2_0(["BaseView"]);
   end;
-  subgraph "lib/float-plant-view/hold/index";
+  subgraph "lib\float-plant-view\hold\index";
     I_3_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -616,7 +349,7 @@ graph RL;
     E_4(["const hold"]);
     E_5(["const unwrap"]);
   end;
-  M["lib/hold/index.d.ts"]
+  M["lib\hold\index.d.ts"]
   E_0 ----> M;
   E_1 ----> M;
   E_2 ----> M;
@@ -632,14 +365,14 @@ graph RL;
     E_1(["type IdpClient"]);
     E_2(["const IdpClient"]);
   end;
-  M["lib/idp-client/index.d.ts"]
-  subgraph "lib/idp-client/command-queue/index";
+  M["lib\idp-client\index.d.ts"]
+  subgraph "lib\idp-client\command-queue\index";
     I_0_0(["CommandQueue"]);
   end;
-  subgraph "lib/idp-client/event-emitter/index";
+  subgraph "lib\idp-client\event-emitter\index";
     I_1_0(["EventEmitter"]);
   end;
-  subgraph "lib/idp-client/hold/index";
+  subgraph "lib\idp-client\hold\index";
     I_2_0(["Get"]);
     I_2_1(["ValueOrGet"]);
   end;
@@ -659,17 +392,17 @@ graph RL;
     E_1(["type PlantView"]);
     E_2(["const PlantView"]);
   end;
-  M["lib/plant-view/index.d.ts"]
+  M["lib\plant-view\index.d.ts"]
   subgraph "chart.js";
     I_0_0(["Chart"]);
   end;
   subgraph "ipp5-types";
     I_1_0(["Ipp5DailySummaryData"]);
   end;
-  subgraph "lib/plant-view/base-view/index";
+  subgraph "lib\plant-view\base-view\index";
     I_2_0(["BaseView"]);
   end;
-  subgraph "lib/plant-view/hold/index";
+  subgraph "lib\plant-view\hold\index";
     I_3_0(["Get"]);
   end;
   M ----> I_0_0;
@@ -688,11 +421,11 @@ graph RL;
     E_1(["type QueryArgs"]);
     E_2(["const QueryArgs"]);
   end;
-  M["lib/query-args/index.d.ts"]
-  subgraph "lib/query-args/base/index";
+  M["lib\query-args\index.d.ts"]
+  subgraph "lib\query-args\base\index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib/query-args/hold/index";
+  subgraph "lib\query-args\hold\index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -711,11 +444,11 @@ graph RL;
     E_1(["type TimeSpan"]);
     E_2(["const TimeSpan"]);
   end;
-  M["lib/time-span/index.d.ts"]
-  subgraph "lib/time-span/base/index";
+  M["lib\time-span\index.d.ts"]
+  subgraph "lib\time-span\base\index";
     I_0_0(["Base"]);
   end;
-  subgraph "lib/time-span/hold/index";
+  subgraph "lib\time-span\hold\index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -734,11 +467,11 @@ graph RL;
     E_1(["type UnknownPageView"]);
     E_2(["const UnknownPageView"]);
   end;
-  M["lib/unknown-page-view/index.d.ts"]
-  subgraph "lib/unknown-page-view/base-view/index";
+  M["lib\unknown-page-view\index.d.ts"]
+  subgraph "lib\unknown-page-view\base-view\index";
     I_0_0(["BaseView"]);
   end;
-  subgraph "lib/unknown-page-view/hold/index";
+  subgraph "lib\unknown-page-view\hold\index";
     I_1_0(["Get"]);
     I_1_1(["ValueOrGet"]);
   end;
@@ -748,4 +481,271 @@ graph RL;
   E_0 ----> M;
   E_1 ----> M;
   E_2 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  M["index.js"]
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["ApiClient"]);
+  end;
+  M["lib\api-client\index.js"]
+  subgraph "lib\api-client\event-emitter\index.js";
+    I_0_0(["EventEmitter"]);
+  end;
+  subgraph "lib\api-client\hold\index.js";
+    I_1_0(["hold"]);
+    I_1_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_1_1;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["Base"]);
+  end;
+  M["lib\base\index.js"]
+  subgraph "lib\base\hold\index.js";
+    I_0_0(["hold"]);
+    I_0_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_0_1;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["BaseView"]);
+  end;
+  M["lib\base-view\index.js"]
+  subgraph "lib\base-view\event-emitter\index.js";
+    I_0_0(["EventEmitter"]);
+  end;
+  subgraph "lib\base-view\hold\index.js";
+    I_1_0(["hold"]);
+    I_1_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_1_1;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["CommandQueue"]);
+  end;
+  M["lib\command-queue\index.js"]
+  subgraph "lib\command-queue\base\index.js";
+    I_0_0(["Base"]);
+  end;
+  subgraph "lib\command-queue\hold\index.js";
+    I_1_0(["hold"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["DailyPageView"]);
+  end;
+  M["lib\daily-page-view\index.js"]
+  subgraph "lib\daily-page-view\base-view\index.js";
+    I_0_0(["BaseView"]);
+  end;
+  subgraph "lib\daily-page-view\date-time\index.js";
+    I_1_0(["DateTime"]);
+  end;
+  subgraph "lib\daily-page-view\hold\index.js";
+    I_2_0(["hold"]);
+    I_2_1(["unwrap"]);
+  end;
+  subgraph "lib\daily-page-view\plant-view\index.js";
+    I_3_0(["PlantView"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_2_0;
+  M ----> I_2_1;
+  M ----> I_3_0;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["DateTime"]);
+  end;
+  M["lib\date-time\index.js"]
+  subgraph "lib\date-time\base\index.js";
+    I_0_0(["Base"]);
+  end;
+  subgraph "lib\date-time\hold\index.js";
+    I_1_0(["hold"]);
+    I_1_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_1_1;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["EventEmitter"]);
+  end;
+  M["lib\event-emitter\index.js"]
+  subgraph "lib\event-emitter\base\index.js";
+    I_0_0(["Base"]);
+  end;
+  subgraph "lib\event-emitter\hold\index.js";
+    I_1_0(["hold"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["FloatPlantView"]);
+  end;
+  M["lib\float-plant-view\index.js"]
+  subgraph "lib\float-plant-view\base-view\index.js";
+    I_0_0(["BaseView"]);
+  end;
+  subgraph "lib\float-plant-view\hold\index.js";
+    I_1_0(["hold"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["hold"]);
+    E_1(["unwrap"]);
+  end;
+  M["lib\hold\index.js"]
+  E_0 ----> M;
+  E_1 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["IdpClient"]);
+  end;
+  M["lib\idp-client\index.js"]
+  subgraph "lib\idp-client\command-queue\index.js";
+    I_0_0(["CommandQueue"]);
+  end;
+  subgraph "lib\idp-client\event-emitter\index.js";
+    I_1_0(["EventEmitter"]);
+  end;
+  subgraph "lib\idp-client\hold\index.js";
+    I_2_0(["hold"]);
+    I_2_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_2_0;
+  M ----> I_2_1;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["PlantView"]);
+  end;
+  M["lib\plant-view\index.js"]
+  subgraph "lib\plant-view\base-view\index.js";
+    I_0_0(["BaseView"]);
+  end;
+  subgraph "lib\plant-view\float-plant-view\index.js";
+    I_1_0(["FloatPlantView"]);
+  end;
+  subgraph "lib\plant-view\hold\index.js";
+    I_2_0(["hold"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_2_0;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["QueryArgs"]);
+  end;
+  M["lib\query-args\index.js"]
+  subgraph "lib\query-args\base\index.js";
+    I_0_0(["Base"]);
+  end;
+  subgraph "lib\query-args\hold\index.js";
+    I_1_0(["hold"]);
+    I_1_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_1_1;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["TimeSpan"]);
+  end;
+  M["lib\time-span\index.js"]
+  subgraph "lib\time-span\base\index.js";
+    I_0_0(["Base"]);
+  end;
+  subgraph "lib\time-span\hold\index.js";
+    I_1_0(["hold"]);
+    I_1_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_1_1;
+  E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph " ";
+    E_0(["UnknownPageView"]);
+  end;
+  M["lib\unknown-page-view\index.js"]
+  subgraph "lib\unknown-page-view\base-view\index.js";
+    I_0_0(["BaseView"]);
+  end;
+  subgraph "lib\unknown-page-view\hold\index.js";
+    I_1_0(["hold"]);
+    I_1_1(["unwrap"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_1_1;
+  E_0 ----> M;
 ~~~~~
