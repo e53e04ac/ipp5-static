@@ -28,7 +28,7 @@ graph RL;
     B_15(["ipp5-types"]);
   end;
   subgraph "github";
-    C_15(["e53e04ac/ipp5-types\ndd9746113b508ee3f68a7a75b5f8d7e6910dd7c7"]);
+    C_15(["e53e04ac/ipp5-types\n72ebc76b64ee943e92e355d6ad97325540f513bb"]);
   end;
   subgraph "npmjs";
     C_0(["@fortawesome/fontawesome-free\n6.3.0"]);
@@ -94,7 +94,7 @@ graph RL;
   click C_12 "https://www.npmjs.com/package/@types/jquery/v/3.5.16";
   click C_13 "https://www.npmjs.com/package/@types/jqueryui/v/1.12.16";
   click C_14 "https://www.npmjs.com/package/@types/socket.io-client/v/3.0.0";
-  click C_15 "https://github.com/e53e04ac/ipp5-types/tree/dd9746113b508ee3f68a7a75b5f8d7e6910dd7c7";
+  click C_15 "https://github.com/e53e04ac/ipp5-types/tree/72ebc76b64ee943e92e355d6ad97325540f513bb";
 ~~~~~
 
 ~~~~~ mermaid
