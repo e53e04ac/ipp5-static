@@ -34,7 +34,7 @@
     "@types/bootstrap": "^5.2.6",
     "@types/d3": "^7.4.0",
     "@types/jquery": "^3.5.16",
-    "@types/jqueryui": "^1.12.15",
+    "@types/jqueryui": "^1.12.17",
     "@types/socket.io-client": "^3.0.0",
     "ipp5-types": "github:e53e04ac/ipp5-types"
   }
